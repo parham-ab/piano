@@ -19,26 +19,61 @@
     <title>JavaScript Piano</title>
   </head>
   <body>
-    <div class="keys">
-      <div data-note="A" class="key white"></div>
-      <div data-note="W" class="key black"></div>
-      <div data-note="S" class="key white"></div>
-      <div data-note="E" class="key black"></div>
-      <div data-note="D" class="key white"></div>
-      <div data-note="F" class="key black"></div>
-      <div data-note="T" class="key white"></div>
-      <div data-note="G" class="key black"></div>
-      <div data-note="Y" class="key white"></div>
-      <div data-note="H" class="key black"></div>
-      <div data-note="U" class="key white"></div>
-      <div data-note="J" class="key black"></div>
-      <div data-note="I" class="key white"></div>
-      <div data-note="K" class="key black"></div>
-      <div data-note="O" class="key white"></div>
-      <div data-note="P" class="key black"></div>
-      <div data-note=";" class="key white"></div>
+    <!-- keys -->
+    <div class="piano">
+      <div data-note="A" class="key white">
+        <span class="info">A</span>
+      </div>
+      <div data-note="W" class="key black">
+        <span class="info">W</span>
+      </div>
+      <div data-note="S" class="key white">
+        <span class="info">S</span>
+      </div>
+      <div data-note="E" class="key black">
+        <span class="info">E</span>
+      </div>
+      <div data-note="D" class="key white">
+        <span class="info">D</span>
+      </div>
+      <div data-note="F" class="key black">
+        <span class="info">F</span>
+      </div>
+      <div data-note="T" class="key white">
+        <span class="info">T</span>
+      </div>
+      <div data-note="G" class="key black">
+        <span class="info">G</span>
+      </div>
+      <div data-note="Y" class="key white">
+        <span class="info">Y</span>
+      </div>
+      <div data-note="H" class="key black">
+        <span class="info">H</span>
+      </div>
+      <div data-note="U" class="key white">
+        <span class="info">U</span>
+      </div>
+      <div data-note="J" class="key black">
+        <span class="info">J</span>
+      </div>
+      <div data-note="I" class="key white">
+        <span class="info">I</span>
+      </div>
+      <div data-note="K" class="key black">
+        <span class="info">K</span>
+      </div>
+      <div data-note="O" class="key white">
+        <span class="info">O</span>
+      </div>
+      <div data-note="P" class="key black">
+        <span class="info">P</span>
+      </div>
+      <div data-note=";" class="key white">
+        <span class="info">;</span>
+      </div>
     </div>
-
+    <!-- audio -->
     <div class="sounds">
       <audio id="A" src="/assets/audio/040.wav"></audio>
       <audio id="W" src="/assets/audio/041.wav"></audio>

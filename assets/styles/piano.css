@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(27, 27, 27);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piano {
+  display: flex;
+}
+.white {
+  width: 100px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: solid 1px gray;
+  color: #000;
+  cursor: pointer;
+}
+.white:hover {
+  background-color: #eeeeee !important;
+}
+.black {
+  background-color: #111;
+  width: 60px;
+  height: 240px;
+  margin: 0 -29.5px;
+  z-index: 9;
+  border-radius: 0 0 10px 10px;
+  color: #fff;
+  cursor: pointer;
+}
+.black:hover {
+  background-color: #272727 !important;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  margin-top: 200px;
+}
