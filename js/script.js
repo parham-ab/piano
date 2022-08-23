@@ -1,0 +1,2 @@
+// elements
+const $ = document;
