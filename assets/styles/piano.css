@@ -16,9 +16,15 @@ body {
   border: solid 1px gray;
   color: #000;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .white:hover {
   background-color: #eeeeee !important;
+  transition: all 0.2s;
+}
+.white:active {
+  background-color: #d5d5d5 !important;
+  transition: all 0.2s;
 }
 .black {
   background-color: #111;
@@ -29,9 +35,15 @@ body {
   border-radius: 0 0 10px 10px;
   color: #fff;
   cursor: pointer;
+  transition: all 0.2s;
 }
 .black:hover {
   background-color: #272727 !important;
+  transition: all 0.2s;
+}
+.black:active {
+  background-color: #393939 !important;
+  transition: all 0.2s;
 }
 .info {
   display: flex;
