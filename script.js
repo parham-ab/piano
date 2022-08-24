@@ -21,5 +21,4 @@ document.addEventListener("keydown", function (e) {
   const blackKeyIndex = blackWords.indexOf(pressedKey.toUpperCase());
   whiteKeyIndex > -1 && playPiano(whiteKeys[whiteKeyIndex]);
   blackKeyIndex > -1 && playPiano(blackKeys[blackKeyIndex]);
-  () => playPiano(pressedKey);
 });
